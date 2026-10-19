@@ -1,0 +1,12 @@
+{
+  "name": "velocity-arena",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Realtime multiplayer arena — Vue canvas client + Socket.IO server",
+  "scripts": {
+    "dev:client": "npm run dev --prefix client",
+    "dev:server": "node server/index.js",
+    "build": "npm run build --prefix client",
+    "start": "node server/index.js"
+  }
+}
